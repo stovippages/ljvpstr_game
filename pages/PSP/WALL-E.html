@@ -1,181 +1,288 @@
-<html>
-<head>
-<head><link rel="icon" type="image/png" href="ps4icon.png"/><title>Sandro Store Games</title></head>
-	<body>
+<!-- Created by Sandro Store Games™ -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="http://view.sandrostoreps3.workers.dev/img/icon.png">
+        <title>Download Game: Sandro Store™</title>
 
-<style>
-			 
-@font-face {
-  font-family: 'MODERNE';
-  font-style: normal;
-  font-weight: 400;
-  src: url('MODERNE%20SANS.eot'); /* IE9 Compat Modes */
-  src: local('MODERNE Regular'), local('MODERNE SANS'),
-       url('MODERNE%20SANSd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('MODERNE%20SANS.woff2') format('woff2'), /* Super Modern Browsers */
-       url('MODERNE%20SANS.woff') format('woff'), /* Modern Browsers */
-       url('MODERNE%20SANS.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('MODERNE%20SANS.svg#MODERNE') format('svg'); /* Legacy iOS */
-}
+    <style>
+        @font-face {
+            font-family: 'MODERNE';
+            font-style: normal;
+            font-weight: 400;
+            src: url('MODERNE%20SANS.eot');
+            src: local('MODERNE Regular'), local('MODERNE SANS'),
+                url('MODERNE%20SANSd41d.eot?#iefix') format('embedded-opentype'),
+                url('MODERNE%20SANS.woff2') format('woff2'),
+                url('MODERNE%20SANS.woff') format('woff'),
+                url('MODERNE%20SANS.ttf') format('truetype'),
+                url('MODERNE%20SANS.svg#MODERNE') format('svg');
+        }
 
+        .classname,
+        .classname1,
+        .trailer,
+        .trailer1 {
+            -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+            -webkit-box-shadow: inset 0px 2px 0px 0px #ffffff;
+            box-shadow: inset 0px 2px 0px 0px #ffffff;
+            text-indent: 0px;
+            border: 3px solid #000000;
+            display: inline-block;
+            font-family: 'MODERNE', monospace;
+            font-size: 24px;
+            font-weight: bold;
+            font-style: normal;
+            height: 58px;
+            line-height: 58px;
+            width: 100%; /* Make it 100% width for responsiveness */
+            text-decoration: none;
+            text-align: center;
+            color: #363636;
+            background-color: #DCDCDC;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            margin-bottom: 10px; /* Add some margin between buttons */
+        }
 
+        .classname:active,
+        .classname1:active,
+        .trailer:active,
+        .trailer1:active {
+            position: relative;
+            top: 1px;
+        }
 
+        .classname:hover,
+        .classname1:hover,
+        .trailer:hover,
+        .trailer1:hover {
+            background-color: #4F4F4F;
+            color: #DCDCDC;
+            cursor: pointer;
+        }
+		
+        .trailer,
+        .trailer1,
+        .trailer,
+        .trailer1 {
+            -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+            -webkit-box-shadow: inset 0px 2px 0px 0px #ffffff;
+            box-shadow: inset 0px 2px 0px 0px #ffffff;
+            text-indent: 0px;
+            border: 3px solid #000000;
+            display: inline-block;
+            font-family: 'MODERNE', monospace;
+            font-size: 24px;
+            font-weight: bold;
+            font-style: normal;
+            height: 58px;
+            line-height: 58px;
+            width: 100%; /* Make it 100% width for responsiveness */
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            background-color: #FF0000;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            margin-bottom: 10px; /* Add some margin between buttons */
+        }
 
-.classname {
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 2px 0px 0px #ffffff;
-	box-shadow:inset 0px 2px 0px 0px #ffffff;
-	background-color:red;
-text-indent:0px;
-	border:3px solid #000000;
-	display:inline-block;
-	color:#000000;
-	font-family:'MODERNE', monospace;
-	font-size:24px;
-	font-weight:bold;
-	font-style:normal;
-height:58px;
-	line-height:58px;
-width:538px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #9c9c9c;
-}.classname:active {
-	position:relative;
-	top:1px;
-}
+        .trailer:active,
+        .trailer1:active,
+        .trailer:active,
+        .trailer1:active {
+            position: relative;
+            top: 1px;
+        }
 
-.classname1 {
-	-moz-box-shadow:inset 1px 1px 1px 1px #444444;
-	-webkit-box-shadow:inset 1px 2px 1px 1px #444444;
-	box-shadow:inset 1px 2px 1px 1px #444444;
-	background-color: transparent;
-text-indent:0px;
-	border:2px solid #FFFFFF;
-	display:inline-block;
-	color:#FFFFFF;
-	font-family:'MODERNE', monospace;
-	font-size:24px;
-	font-weight:bold;
-	font-style:normal;
-height:58px;
-	line-height:58px;
-width:538px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #9c9c9c;
-}.classname:active {
-	position:relative;
-	top:1px;
-}
+        .trailer:hover,
+        .trailer1:hover,
+        .trailer:hover,
+        .trailer1:hover {
+            background-color: #8B0000;
+            color: #DCDCDC;
+            cursor: pointer;
+        }		
 
-html, body {
-	text-align: center;	
-}
+        html,
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 16px; /* Set a default font size for better responsiveness */
+        }
 
-ul {
-    font-family: 'MODERNE', monospace;
-	font-size: 1rem;	
-	color: #000000  ;
-	margin:5px;
-	
-}
+        ul {
+            font-family: 'MODERNE', monospace;
+            font-size: 1rem;
+            color: #000000;
+            margin: 5px;
+        }
 
-h1 {
-    font-family: 'MODERNE', monospace;
-	font-size: 10rem;	
-	color: #000000  ;
-	margin:5px;
-	color: #000000;
-    text-shadow: 1px 1px 10px #777777;
-}
+        h1,
+        h2,
+        h3 {
+            font-family: 'MODERNE', monospace;
+            margin: 5px;
+            text-shadow: 1px 1px 2px #777777;
+        }
 
-h2 {
-    font-family: 'MODERNE', monospace;
-	font-size: 3rem;	
-	margin:5px;
-	color: #000000;
-    text-shadow: 1px 1px 2px #777777;
-	
-}
+        body {
+            background-image: url("https://wallpapercave.com/wp/pAaqxJB.jpg");
+            background-size: cover; /* Use cover for better background image scaling */
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 3% 8% 8%;
+            background-color: #000000;
+            color: white;
+        }
 
+        #main-container {
+            max-width: 1200px; /* Set a max-width for better readability on larger screens */
+            margin: 0 auto; /* Center the content */
+        }
 
-h3 	{
-    font-family: 'MODERNE', monospace;
-	font-size: 1rem;	
-	margin:5px;
-	color: #000000;
-    text-shadow: 1px 1px 2px #777777;
-	
-}
+        img {
+            border: 3px;
+            width: 100%;
+            max-width: 100px; /* Adjust max-width as needed */
+            height: auto;
+        }
 
-  body { background-image:url("http://pages.sandrostoreps3.workers.dev/0:/PSP/WALL-E.jpg");
-  background-size: 100% auto; 
-  background-attachment: fixed;
-  background-repeat:no-repeat;
-  margin-top: 3%; 
-  margin-left: 8%; 
-  margin-right: 8%; 
-  marginbottom: 8%;}
-  body {background-color:#000000;}
-  body {color:white;}
-}
-</style>
+        h4 {
+            text-align: center;
+            color: white;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
 
-<center>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h2 style="color: white; font-size: 3rem; text-shadow: black 0.1em 0.1em 0.2em" >!! Selecione qualquer opção para baixar o seu jogo !!</h2>
+        h3 span {
+            text-align: center;
+            color: white;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+        .button-container {
+            overflow-x: auto;
+            white-space: nowrap;
+			margin-bottom: 60px; /* Ajuste conforme necessário para deixar espaço para a mensagem de copyright */
+        }
 
+        .button-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px; /* Adicionado margem inferior para separar os botões */
+        }
 
+        .copyright-message {
+            position: fixed;
+            bottom: 80px; /* Ajuste conforme necessário para a altura desejada acima dos botões fixos */
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 10px; /* Adapte o preenchimento conforme necessário */
+            box-sizing: border-box;
+            z-index: 2; /* Aumente o z-index para garantir que esteja acima dos botões fixos */
+        }
+
+        .fixed-buttons {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px; /* Ajuste conforme necessário */
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center; /* Centraliza os botões na tela */
+            z-index: 1;
+        }
+
+        .fixed-buttons a {
+            margin: 0 10px; /* Ajuste conforme necessário para o espaçamento entre os botões */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <h2 style="text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000; color: white; font-size: 3rem">SALVE A ISO EM DEV_HDD0/PACKAGES</h2>
+        <br>
+        <br>
 <main>
+<div class="button-container">
+<div class="button-row">
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.0.html" class="classname" onclick="handleButtonClick(this)">Download: iso.0</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.1.html" class="classname" onclick="handleButtonClick(this)">Download: iso.1</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.2.html" class="classname" onclick="handleButtonClick(this)">Download: iso.2</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.3.html" class="classname" onclick="handleButtonClick(this)">Download: iso.3</a>&nbsp;&nbsp;
+</div>
+<div class="button-row">
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.4.html" class="classname" onclick="handleButtonClick(this)">Download: iso.4</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.5.html" class="classname" onclick="handleButtonClick(this)">Download: iso.5</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.6.html" class="classname" onclick="handleButtonClick(this)">Download: iso.6</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.7.html" class="classname" onclick="handleButtonClick(this)">Download: iso.7</a>&nbsp;&nbsp;
+</div>
+<div class="button-row">
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.8.html" class="classname" onclick="handleButtonClick(this)">Download: iso.8</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.9.html" class="classname" onclick="handleButtonClick(this)">Download: iso.9</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.10.html" class="classname" onclick="handleButtonClick(this)">Download: iso.10</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.11.html" class="classname" onclick="handleButtonClick(this)">Download: iso.11</a>&nbsp;&nbsp;
+</div>
+<div class="button-row">
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.12.html" class="classname" onclick="handleButtonClick(this)">Download: iso.12</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.13.html" class="classname" onclick="handleButtonClick(this)">Download: iso.13</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.14.html" class="classname" onclick="handleButtonClick(this)">Download: iso.14</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.15.html" class="classname" onclick="handleButtonClick(this)">Download: iso.15</a>&nbsp;&nbsp;
+</div>
+<div class="button-row">
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.16.html" class="classname" onclick="handleButtonClick(this)">Download: iso.16</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.17.html" class="classname" onclick="handleButtonClick(this)">Download: iso.17</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.18.html" class="classname" onclick="handleButtonClick(this)">Download: iso.18</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.19.html" class="classname" onclick="handleButtonClick(this)">Download: iso.19</a>&nbsp;&nbsp;
+</div>
+<div class="button-row">
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.20.html" class="classname" onclick="handleButtonClick(this)">Download: iso.20</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.21.html" class="classname" onclick="handleButtonClick(this)">Download: iso.21</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.22.html" class="classname" onclick="handleButtonClick(this)">Download: iso.22</a>&nbsp;&nbsp;
+	<a href="http://localhost/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://view.sandrostoreps3.workers.dev/links/002233445566.iso.23.html" class="classname" onclick="handleButtonClick(this)">Download: iso.23</a>&nbsp;&nbsp;
+</div>
 
-	</br>
-	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" style="background-color: yellow;" class="classname">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
-	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" style="background-color: yellow;" class="classname">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
-	</br>
-	<a href="http://pages.sandrostoreps3.workers.dev/1:/PSP/WALL-E.mp4" style="color: white;" class="classname">Assistir Game Play Trailer</a>&nbsp;&nbsp;
-	</br>
-	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Voltanto para a XMB!;" style="background-color: yellow;" class="classname">Sair para a XMB</a>&nbsp;&nbsp;
- 
-	</center>	
+        <div class="fixed-buttons">
+            <a href="http://view.sandrostoreps3.workers.dev/trailer/002233445566.mp4" class="trailer" onclick="handleButtonClick2(this)">Assistir: Game Play Trailer</a>
+            <a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Voltanto para a XMB!;" class="classname" onclick="handleButtonClick(this)">Sair para a XMB</a>
+        </div>
+            <!-- Mensagem de copyright abaixo dos últimos botões -->
+            <div class="copyright-message">
+                <img src="http://pages.sandrostoreps3.workers.dev/0:/sandrostoregames.png" alt="Sandro Store Games">
+                <h4>Copyright 2023 © Sandro Store Games™</h4>
+                <h3><span>Todos os direitos Reservados</span></h3>
+            </div>
+      </main>
+</div>
 
-</main>
+        <script>
+            // Function to handle button click
+            function handleButtonClick(element) {
+                // Change background color on click
+                element.style.backgroundColor = '#FF0000';
+
+                // Play a sound on click
+                var audio = new Audio('http://view.sandrostoreps3.workers.dev/sound/mouse-click-117076.mp3');
+                audio.play();
+            }
+
+            // Function to handle button click
+            function handleButtonClick2(element) {
+                // Change background color on click
+                element.style.backgroundColor = '#FF8C00';
+
+                // Play a sound on click
+                var audio = new Audio('http://view.sandrostoreps3.workers.dev/sound/mouse-click-117076.mp3');
+                audio.play();
+            }
+        </script>
 
 </body>
 
 </html>
-
-<br></br>
-<img border="3px" width="100" height="100" src="http://pages.sandrostoreps3.workers.dev/0:/sandrostoregames.png"></img>
-<h4 style="text-align:center; color: white; text-shadow: black 0.1em 0.1em 0.2em">Criado por Sandro Store Games</h4>
-
-<h3><span style='text-align:center; color: white; text-shadow: black 0.1em 0.1em 0.2em'>Créditos: Gilson || Fabio || Hebert</span></h3>
