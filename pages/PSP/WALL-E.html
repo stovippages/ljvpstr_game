@@ -128,6 +128,15 @@ h1 {
     text-shadow: 1px 1px 10px #777777;
 }
 
+h2 {
+    font-family: 'MODERNE', monospace;
+	font-size: 3rem;	
+	margin:5px;
+	color: #000000;
+    text-shadow: 1px 1px 2px #777777;
+	
+}
+
 
 h3 	{
     font-family: 'MODERNE', monospace;
@@ -138,13 +147,16 @@ h3 	{
 	
 }
 
-        body {
+      body {
             background-image: url("http://pages.sandrostoreps3.workers.dev/0:/PSP/WALL-E.jpg");
-            background-size: cover;
+            background-size: 100% auto;
             background-attachment: fixed;
             background-repeat: no-repeat;
-            margin: 0;
-            font-family: 'MODERNE', monospace;
+            margin-top: 3%;
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-bottom: 8%;
+            background-color: #000000;
             color: white;
         }
 		
@@ -163,46 +175,22 @@ h3 	{
 		
         .transparent-box {
             background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
+            border-radius: 5px;
             padding: 20px;
             box-sizing: border-box;
-            max-width: 1900px;
-            margin: 10% auto; /* Adjust the margin as needed */
-        }
-
-        h2 {
-            text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
-            color: white;
-            font-size: 3rem;
-            text-align: center;
+            margin: 0 auto;
+            max-width: 3000px;
+            max-height: 500px; /* Adjust the maximum height as needed */
+            overflow-y: auto; /* Enable vertical scrolling */
+            margin-top: 30px;
         }
 
         /* Rest of your existing styles */
 
         /* Add the following style to center the text within the box 
 		
-
-        footer {
+        .center-text {
             text-align: center;
-            margin-top: 20px;
-        }
-
-        img {
-            border: 3px;
-            width: 100px;
-            height: 100px;
-        }
-		
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            max-height: 200px; /* Adjust the maximum height as needed */
-            overflow-y: auto; /* Enable vertical scrolling */
-        }
-
-        li {
-            margin-bottom: 10px;
         }
 		
 </style>
@@ -213,20 +201,27 @@ h3 	{
 
 
 <main>
-    <div class="transparent-box">
-	<ul>
-	<li><a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;</li>	
-	<li><a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
-	<li><a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;</li>	
-	<li><a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
-	<li><a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;</li>	
-	<li><a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
-	<li><a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;</li>	
-	<li><a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
-	<li><a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;</li>	
-	<li><a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
-	</ul>
+
+	</br>
+    <div class="transparent-box center-text">
+	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+    <a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+    <a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;	
+	<a href="http://localhost/xmb.ps3$close_all_list;/wait.ps3?3;/pad.ps3?circle;/popup.ps3/Digite seu login;/wait.ps3?3;/browser.ps3?http://lojavip.sandrostoreps3.workers.dev/0:/GAMELOCKPAGE/PSP/WALL-E.html" class="classname" onclick="handleButtonClick(this)">Opção 1 - Instalação Automática</a>&nbsp;&nbsp;	
+	<a href="http://lojavip.sandrostoreps3.workers.dev/1:/psp%20novos/WALL-E.pkg" class="classname" onclick="handleButtonClick(this)">Opção 2 - Download Manual</a>&nbsp;&nbsp;
     </div>
+	</br>
 </center>	
 
 </main>
@@ -234,6 +229,9 @@ h3 	{
 </body>
 
 </html>
+
+<br></br>
+
     <center>
     <div class="sticky-buttons">
     <footer>
