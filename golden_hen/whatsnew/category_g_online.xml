@@ -4,7 +4,7 @@
 <spc anno="csxad=1&adspace=9,10,11,12,13" id="33537" multi="o" rep="t">
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
 <desc>GTA OG</desc>
-<url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_psn/GTAOG.png</url>
+<url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_game/JOGOS_ONLINE/GTAOG.png</url>
 <target type="u">psgm:install?contentid=CUSTOM-GTAOGMODZ_00-0000000000000000&amp;url=http://content-ps3.sandrostoreps3.workers.dev/Mods/CUSTOM-GTAOGMODZ_00-0000000000000000.pkg.xml</target>
 <cntry agelmt="0">all</cntry>
 <lang>all</lang>
