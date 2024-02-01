@@ -6,13 +6,6 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
 <desc>GTA OG + Mod Menu</desc>
 <url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_game/JOGOS_ONLINE/GTAOG.png</url>
-<target type="u">http://localhost/wait.ps3?3;/xmb.ps3/install.ps3?url=http://content-ps3.sandrostoreps3.workers.dev/Mods/CUSTOM-GTAOGMODZ_00-0000000000000000.pkg.xml;/wait.ps3?6;/browser.ps3?http://pages.sandrostoreps3.workers.dev/0:/PS3/games/GTAONLINE/GTA_ONLINE.jpg</target>
-<cntry agelmt="0">all</cntry>
-<lang>all</lang>
-</mtrl> 
-<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
-<desc>GTA BLES [ISO]</desc>
-<url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_game/JOGOS_ONLINE/GTAONLINE.png</url>
 <target type="u">http://ps3privatepages.github.io/projectstore/pages/MODMENU/GTA_ONLINE/GTA_ONLINE.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>all</lang>
