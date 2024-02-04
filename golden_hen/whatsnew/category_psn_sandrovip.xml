@@ -6,7 +6,7 @@
 		<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
 			<desc>Sandro Store® VIP</desc>
 			<url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_psn/SANDROSTORE4.0.png</url>
-			<target type="u">psgm:install?contentid=CUSTOM-SANDROSTO_00-0000000000000000&amp;url=http://pkg-whatsnew.sandrostoreps3.workers.dev/2:/version_store_full.pkg</target>
+			<target type="u">psgm:install?contentid=CUSTOM-SANDROSTO_00-0000000000000000&amp;url=http://content-ps3.sandrostoreps3.workers.dev/download/store/SANDROSTOREVIP.pkg</target>
 			<url type="73">http://github.com/ps3privatepages/projectstore/raw/main/golden_hen/whatsnew/backgrounds/category_psn/sandrostore.4.0saga.swf</url>
 			<cntry agelmt="0">all</cntry>
 			<lang>all</lang>
