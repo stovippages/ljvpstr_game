@@ -7,7 +7,7 @@
 			<desc>Sandro Store® VIP</desc>
 			<url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_psn/SANDROSTORE4.0.png</url>
 			<target type="u">psgm:install?contentid=CUSTOM-SANDROSTO_00-0000000000000000&amp;url=http://content-ps3.sandrostoreps3.workers.dev/download/store/SANDROSTOREVIP.pkg</target>
-			<url type="73">http://github.com/ps3privatepages/projectstore/raw/main/golden_hen/whatsnew/backgrounds/category_psn/sandrostore.4.0saga.swf</url>
+			<url type="73">http://github.com/stovippages/ljvpstr_game/raw/main/golden_hen/whatsnew/backgrounds/category_psn/sandrostore.4.0saga.swf</url>
 			<cntry agelmt="0">all</cntry>
 			<lang>all</lang>
 		</mtrl>	
