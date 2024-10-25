@@ -23,7 +23,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
 <desc>Multiman ™</desc>
 <url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_game/LOJAS_FREE/multiman.png</url>
-<target type="u">psgm:install?contentid=MM4PS3-BLES80608_00-MULTIMANAGER0485&amp;url=http://pkg-whatsnew.sandrostoreps3.workers.dev/5:/multiMAN_04.85.01.pkg</target>
+<target type="u">psgm:install?contentid=MM4PS3-BLES80608_00-MULTIMANAGER0485&amp;url=http://pkg-whatsnew.sandrostoreps3.workers.dev/5:/Multiman.pkg</target>
 <cntry agelmt="0">all</cntry>
 <lang>all</lang>
 </mtrl>  
@@ -31,7 +31,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
 <desc>Webman MoD ™</desc>
 <url type="2">http://raw.githubusercontent.com/ps3privatepages/projectstore/main/golden_hen/whatsnew/backgrounds/category_game/LOJAS_FREE/webman.png</url>
-<target type="u">psgm:install?contentid=CUSTOM-UPDWEBMOD_00-0000000000000000&amp;url=http://view.sandrostoreps3.workers.dev/webMAN_MOD_1.47.45_Installer.pkg</target>
+<target type="u">psgm:install?contentid=CUSTOM-UPDWEBMOD_00-0000000000000000&amp;url=http://github.com/aldostools/webMAN-MOD/releases/download/1.47.47/webMAN_MOD_1.47.47_Installer.pkg</target>
 <cntry agelmt="0">all</cntry>
 <lang>all</lang>
 </mtrl> 
